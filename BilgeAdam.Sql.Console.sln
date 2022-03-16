@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Sql.Console", "BilgeAdam.Sql.Console\BilgeAdam.Sql.Console.csproj", "{794C6256-1A8C-41DA-BAFF-7FDC1F16D92C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.Sql.Console", "BilgeAdam.Sql.Console\BilgeAdam.Sql.Console.csproj", "{794C6256-1A8C-41DA-BAFF-7FDC1F16D92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Sql.WinApp", "BilgeAdam.Sql.WinAppV1\BilgeAdam.Sql.WinApp.csproj", "{D211E26D-7358-4717-9CCD-240E18487C7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.Sql.WinApp", "BilgeAdam.Sql.WinAppV1\BilgeAdam.Sql.WinApp.csproj", "{D211E26D-7358-4717-9CCD-240E18487C7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{0CEDCD42-8BC1-4068-B31A-A9F22EB9CA14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{E524C71D-93BD-4A1C-BE99-B587768FAB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.ADONET.Select", "BilgeAdam.ADONET.Select\BilgeAdam.ADONET.Select.csproj", "{8B24174D-1D1E-4DC6-B4D7-174C3AB94867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{4C191BDD-A668-4C42-B279-C0FFFB6F6E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,18 @@ Global
 		{D211E26D-7358-4717-9CCD-240E18487C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D211E26D-7358-4717-9CCD-240E18487C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D211E26D-7358-4717-9CCD-240E18487C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B24174D-1D1E-4DC6-B4D7-174C3AB94867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B24174D-1D1E-4DC6-B4D7-174C3AB94867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B24174D-1D1E-4DC6-B4D7-174C3AB94867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B24174D-1D1E-4DC6-B4D7-174C3AB94867}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{794C6256-1A8C-41DA-BAFF-7FDC1F16D92C} = {0CEDCD42-8BC1-4068-B31A-A9F22EB9CA14}
+		{D211E26D-7358-4717-9CCD-240E18487C7C} = {0CEDCD42-8BC1-4068-B31A-A9F22EB9CA14}
+		{8B24174D-1D1E-4DC6-B4D7-174C3AB94867} = {E524C71D-93BD-4A1C-BE99-B587768FAB60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56209535-FA75-4602-B1BF-3350A2F3F80D}
