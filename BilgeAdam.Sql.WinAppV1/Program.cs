@@ -1,3 +1,5 @@
+using BilgeAdam.Sql.WinApp;
+
 namespace BilgeAdam.Sql.WinAppV1
 {
     internal static class Program
@@ -9,7 +11,8 @@ namespace BilgeAdam.Sql.WinAppV1
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmMain());
+            Application.Run(new frmAll());
+         
         }
     }
 }
